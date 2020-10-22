@@ -6,7 +6,7 @@ float num1, num2; //variaveis globais
 void troca();
 void dobra();
 
-int main()
+int main();
 {
 	cout<<"\nNumero 1: ";
 	cin>>num1;
