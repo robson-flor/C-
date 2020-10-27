@@ -17,7 +17,7 @@ int main()
 	cout<<"\nDigite telefone: "; cin.getline(paciente1.telefone, 25);
 	
 	//segundo paciente
-		cout<<"\nNome do 2o paciente: "; cin.getline(paciente2.nomePaciente, 31);
+	cout<<"\nNome do 2o paciente: "; cin.getline(paciente2.nomePaciente, 31);
 	cout<<"\nDigite Peso, Altura e IMC, pressionando enter apos cada um\n";
 	cin>>paciente2.peso>>paciente2.altura>>paciente2.imc;
 	cin.get(); //retira o enter deixado pela variavel numerica
